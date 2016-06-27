@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Desktop/pop_movies/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/administrator/Desktop/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_271c02ef47df0648de000404735f453f3e903a07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="72f729c6cfd658254e331ca2332a05637e2c7a0c">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8752828af96136226cb6a9f30a483e1b2f6fdf5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Desktop/pop_movies/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/administrator/Desktop/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_dfb425657b7443a6dcc51891e213aa5f70eac702/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Desktop/pop_movies/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/administrator/Desktop/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_a43be603d334ff5d3ed74afa8b4ab3de1151ae15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_e254001cdd941530c59f00f36289907b58a9d855/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Downloads/adt-bundle-mac-x86_64-20140321/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_305222af4d3350ac224a9460fb5db30cb0761add/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Desktop/pop_movies/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/administrator/Desktop/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_bdb695c8596d729f0124c5c7ce8138b15a3de51f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_9b5a60aaf67983eb8d3904412f216cdd72bd8a17/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_c2690527f45a830b160f66357315d66131d9c856/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Desktop/pop_movies/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="cc109d5d167aeb95b6cd7f70007518865e10d96b">
+        <dex dex="/Users/administrator/Desktop/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bca5d7cfa693ed276b628c1c9661aa3ee4572a55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Desktop/pop_movies/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/administrator/Desktop/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_f5353295ded0b38949c36f7e05015b871c511b1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="db8f62dee3593e572916053f9ecc0b98da03ce85">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_171f73947ee03d8b992ca41da928f886460c67c4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_b1485a7522e68dc2600864275a82be53c448d44a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Desktop/pop_movies/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/administrator/Desktop/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_25e0be1d956c858f9cc7bd5456bff5c7ab6479ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_dd96014877147c0159271917b3878ba6d50515a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_d427870798d29b9eef34523be33e630658ef4379/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Desktop/pop_movies/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="7425ce83966f89144b214db37492519d9577878c">
+        <dex dex="/Users/administrator/Desktop/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cd5345e4c1f9303c74deb4435b3ac4200e66827f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Desktop/pop_movies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/administrator/Desktop/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_5a2d5a13601922833cb637e758de6de450aa3a5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_0a688d6386f6f6150621d2a90aa6b76cbf4cd372/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/administrator/AndroidStudioProjects/pop_movies/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_de7e7110da869506989f9c9d99ad472c16cca10f/classes.dex" />
+    </item>
+
+</items>

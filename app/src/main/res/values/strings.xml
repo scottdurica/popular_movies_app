@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Movie Details</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_most_popular_movies">Most Popular Movies</string>
+    <string name="title_top_rated_movies">Top Rated Movies</string>
+
+    //settings
+    <string name="pref_sort_by_key" translatable="false">sortby</string>
+    <string name="pref_sort_by_title">Sort Movies By</string>
+    <string name="pref_sort_by_default">popular</string>
+    <string name="detail_b_display_text">Mark as \n favorite</string>
+
+
+
+
+
+    <!-- Insert valid MovieDB API Key Here-->
+
+    <string name="movie_db_api_key">Insert valid api key here</string>
+
+
+
+
+
+
+
+</resources>
