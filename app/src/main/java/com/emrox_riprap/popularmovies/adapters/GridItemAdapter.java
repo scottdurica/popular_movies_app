@@ -1,7 +1,6 @@
 package com.emrox_riprap.popularmovies.adapters;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,14 +50,25 @@ public class GridItemAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         Movie movie = mDataList.get(position);
-        String path = movie.getPosterPath();
+        String path = movie.getPoster_path();
+        ViewHolder holder;
         if (convertView == null){
             convertView = LayoutInflater.from(mContext).inflate(R.layout.grid_item, null);
+            holder = new ViewHolder();
+            holder.imageView = (ImageView)convertView.findViewById(R.id.iv_movie_poster);
+            convertView.setTag(holder);
+        }
+        else{
+            holder = (ViewHolder)convertView.getTag();
         }
 
-        ImageView imageView = (ImageView) convertView.findViewById(R.id.iv_movie_poster);
-        Picasso.with(mContext).load(path).into(imageView);
+//        ImageView imageView = (ImageView) convertView.findViewById(R.id.iv_movie_poster);
+        Picasso.with(mContext).load(path).into(holder.imageView);
 
-        return imageView;
+        return convertView;
+    }
+
+    static class ViewHolder{
+        ImageView imageView;
     }
 }

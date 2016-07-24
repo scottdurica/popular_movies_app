@@ -12,12 +12,10 @@ public class Movie implements Parcelable{
     private int id;
     private String title;
     private String overview;
-    private String posterPath;
-
-
-
-    private String releaseDate;
-    private double voterRating;
+    private String poster_path;
+    private String release_date;
+//    @JsonProperty("vote_average")
+    private double vote_average;
 
 
     public Movie() {
@@ -28,9 +26,9 @@ public class Movie implements Parcelable{
         this.id = id;
         this.title = title;
         this.overview = overview;
-        this.posterPath = posterPath;
-        this.releaseDate = releaseDate;
-        this.voterRating = voterAverage;
+        this.poster_path = posterPath;
+        this.release_date = releaseDate;
+        this.vote_average = voterAverage;
     }
 
     //Getters and Setters
@@ -58,27 +56,27 @@ public class Movie implements Parcelable{
         this.overview = overview;
     }
 
-    public String getPosterPath() {
-        return posterPath;
+    public String getPoster_path() {
+        return poster_path;
     }
 
-    public void setPosterPath(String posterPath) {
-        this.posterPath = posterPath;
+    public void setPoster_path(String poster_path) {
+        this.poster_path = poster_path;
     }
-    public String getReleaseDate() {
-        return releaseDate;
-    }
-
-    public void setReleaseDate(String releaseDate) {
-        this.releaseDate = releaseDate;
+    public String getRelease_date() {
+        return release_date;
     }
 
-    public double getVoterRating() {
-        return voterRating;
+    public void setRelease_date(String release_date) {
+        this.release_date = release_date;
     }
-
-    public void setVoterRating(double voterRating) {
-        this.voterRating = voterRating;
+//    @JsonProperty("vote_average")
+    public double getVote_average() {
+        return vote_average;
+    }
+//    @JsonProperty("vote_average")
+    public void setVote_average(double vote_average) {
+        this.vote_average = vote_average;
     }
 
 
@@ -89,9 +87,9 @@ public class Movie implements Parcelable{
             mMovie.id = source.readInt();
             mMovie.title = source.readString();
             mMovie.overview = source.readString();
-            mMovie.posterPath = source.readString();
-            mMovie.releaseDate = source.readString();
-            mMovie.voterRating = source.readDouble();
+            mMovie.poster_path = source.readString();
+            mMovie.release_date = source.readString();
+            mMovie.vote_average = source.readDouble();
             return mMovie;
         }
 
@@ -110,9 +108,9 @@ public class Movie implements Parcelable{
         parcel.writeInt(id);
         parcel.writeString(title);
         parcel.writeString(overview);
-        parcel.writeString(posterPath);
-        parcel.writeString(releaseDate);
-        parcel.writeDouble(voterRating);
+        parcel.writeString(poster_path);
+        parcel.writeString(release_date);
+        parcel.writeDouble(vote_average);
 
     }
 }

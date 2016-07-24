@@ -12,4 +12,11 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+    <style name="std_margin_rl">
+        <item name="android:layout_marginLeft">@dimen/list_padding_side</item>
+        <item name="android:layout_marginRight">@dimen/list_padding_side</item>
+        <item name="android:layout_marginEnd">@dimen/list_padding_side</item>
+        <item name="android:layout_marginStart">@dimen/list_padding_side</item>
+
+    </style>
 </resources>

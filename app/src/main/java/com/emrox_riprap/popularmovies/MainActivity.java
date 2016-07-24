@@ -7,15 +7,25 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity extends AppCompatActivity implements MainActivityFragment.Callback{
+    public static final String FRAG_TAG = "detail_fragment";
+    private boolean mTablet;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (findViewById(R.id.movie_detail_container) != null){
+            mTablet = true;
+
+        }
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
     }
 
     @Override
@@ -39,5 +49,21 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onMovieSelected(Bundle bundle) {
+        if (!mTablet){
+            Intent intent = new Intent(this,DetailActivity.class);
+            intent.putExtras(bundle);
+            startActivity(intent);
+        }else{
+            DetailActivityFragment fragment = new DetailActivityFragment();
+            fragment.setArguments(bundle);
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.movie_detail_container,fragment,FRAG_TAG)
+                    .commit();
+        }
+
     }
 }

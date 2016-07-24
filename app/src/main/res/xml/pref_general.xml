@@ -3,9 +3,10 @@
 
     <ListPreference
         android:key="@string/pref_sort_by_key"
-        android:title="@string/pref_sort_by_title"
+        android:name="@string/pref_sort_by_title"
         android:entryValues="@array/pref_sort_by_options_values"
-        android:entries="@array/pref_sort_by_options"/>
+        android:entries="@array/pref_sort_by_options"
+        android:title="@string/pref_sort_by_title"/>
 
 
 

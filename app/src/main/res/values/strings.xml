@@ -8,22 +8,20 @@
 
     //settings
     <string name="pref_sort_by_key" translatable="false">sortby</string>
-    <string name="pref_sort_by_title">Sort Movies By</string>
+    <string name="pref_sort_by_title">View Options</string>
     <string name="pref_sort_by_default">popular</string>
-    <string name="detail_b_display_text">Mark as \n favorite</string>
+    <string name="detail_b_display_text_mark">Mark as \n favorite</string>
+    <string name="detail_b_display_text_remove">Remove from \n favorites</string>
 
 
 
 
 
     <!-- Insert valid MovieDB API Key Here-->
-
+<!--
+    -->
     <string name="movie_db_api_key">Insert valid api key here</string>
-
-
-
-
-
+    <string name="title_favorites">My Favorites</string>
 
 
 </resources>

@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.emrox_riprap.popularmovies.POJO.ListItemObject;
+import com.emrox_riprap.popularmovies.POJO.Review;
 import com.emrox_riprap.popularmovies.POJO.Trailer;
 import com.emrox_riprap.popularmovies.R;
 
@@ -21,16 +23,13 @@ public class TrailerListAdapter extends BaseAdapter {
 
     private Context mContext;
 
-    public ArrayList<Trailer> mDataList;
-
+    public ArrayList<ListItemObject> mDataList;
 
 
     public TrailerListAdapter(Context context) {
         this.mContext = context;
-        mDataList = new ArrayList<Trailer>();
+        mDataList = new ArrayList<ListItemObject>();
     }
-
-
 
 
     @Override
@@ -50,35 +49,52 @@ public class TrailerListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
-
+//        Log.e("POSITON IS : ", "" + position);
+//        Trailer t = mDataList.get(position);
+//        if (convertView == null){
+//            convertView = LayoutInflater.from(mContext).inflate(R.layout.list_item_trailer,null);
+//        }
+//        TextView textView = (TextView)convertView.findViewById(R.id.tv_trailer_name);
+//        textView.setText(t.getName());
+//        return convertView;
         ViewHolder viewHolder;
 
-        if (convertView == null){
+        if (convertView == null) {
             //Inflate the layout
-            convertView = LayoutInflater.from(mContext).inflate(R.layout.list_item_trailer,null);
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.list_item_trailer, null);
 
             //Initialize the ViewHolder
             viewHolder = new ViewHolder();
-            viewHolder.title = (TextView)convertView.findViewById(R.id.tv_trailer_name);
+            viewHolder.title = (TextView) convertView.findViewById(R.id.tv_trailer_name);
 //            viewHolder.imageView = (ImageView)convertView.findViewById(R.id.iv_play_image);
 
             //store the viewHolder with the view
             convertView.setTag(viewHolder);
-        }else{
+        } else {
             viewHolder = (ViewHolder) convertView.getTag();
         }
 
-        Trailer t = mDataList.get(position);
-
-        if (t != null){
-            viewHolder.title.setText(t.getTitle());
+        if (mDataList.get(position) instanceof Trailer){
+            Trailer t = (Trailer)mDataList.get(position);
+            viewHolder.title.setText(t.getName());
         }
+        else{
+            Review r = (Review)mDataList.get(position);
+            viewHolder.title.setText("Review by " + r.getAuthor());
+        }
+
+
+
+//        if (t != null){
+//        viewHolder.title.setText(t.getName());
+//        }
 
         return convertView;
     }
 
-    public class ViewHolder {
-//        ImageView imageView;
+
+    static class ViewHolder {
+        //        ImageView imageView;
         TextView title;
     }
 }

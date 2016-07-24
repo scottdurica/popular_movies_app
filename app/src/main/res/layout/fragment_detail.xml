@@ -1,128 +1,17 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
-
-
     tools:context="com.emrox_riprap.popularmovies.DetailActivityFragment"
     tools:showIn="@layout/activity_detail">
 
 
-    <TextView
-        android:id="@+id/tv_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:paddingBottom="@dimen/detail_title_padding_bottom"
-        android:paddingTop="@dimen/detail_title_padding_top"
-        android:textSize="@dimen/detail_title_text_size"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@android:color/white"
-        android:paddingLeft="@dimen/detail_title_padding_left"
-        android:paddingStart="@dimen/detail_title_padding_left"/>
-
-    <ScrollView
+    <ListView
+        android:id="@+id/lv_trailers"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/tv_title"
-        android:layout_marginTop="@dimen/detail_sv_margin_top"
-        android:layout_marginStart="@dimen/detail_sv_margin_left_right"
-        android:layout_marginEnd="@dimen/detail_sv_margin_left_right"
-        android:layout_marginLeft="@dimen/detail_sv_margin_left_right"
-        android:layout_marginRight="@dimen/detail_sv_margin_left_right"
-        android:id="@+id/scrollView">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/detail_rl_margin_top">
-
-            <ImageView
-                android:id="@+id/iv_detail_fragment_poster"
-                android:layout_width="@dimen/detail_iv_width"
-                android:layout_height="@dimen/detail_iv_height"
-                android:background="@android:color/darker_gray"
-                android:layout_marginRight="@dimen/detail_iv_margin_right"
-                />
-            <TextView
-                android:id="@+id/tv_year"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/iv_detail_fragment_poster"
-                android:textSize="@dimen/detail_tv_year_text_size"
-                android:textStyle="bold"/>
-            <TextView
-                android:text="120min"
-                android:id="@+id/tv_length"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/tv_year"
-                android:layout_toRightOf="@id/iv_detail_fragment_poster"
-                android:textSize="@dimen/detail_tv_length_text_size"
-                android:textStyle="italic"
-                android:layout_marginTop="@dimen/detail_tv_length_margin_top"/>
-            <TextView
-                android:id="@+id/tv_rating"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/iv_detail_fragment_poster"
-                android:layout_below="@id/tv_length"
-                android:layout_marginTop="@dimen/detail_tv_rating_margin_top"/>
-
-            <Button
-                android:text="@string/detail_b_display_text"
-                android:id="@+id/b_add_as_favorite"
-                android:background="@drawable/btn_selector"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/iv_detail_fragment_poster"
-                android:layout_below="@id/tv_rating"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/detail_b_text_size"
-                android:layout_marginTop="@dimen/detail_b_margin_top"/>
-
-            <TextView
-                android:id="@+id/tv_overview"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/iv_detail_fragment_poster"
-                android:layout_marginTop="@dimen/detail_tv_overview_margin_top"
-                android:textColor="@color/colorSecondaryText"/>
-            
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/divider_view_height"
-                android:background="@color/colorSecondaryText"
-                android:id="@+id/divider1"
-
-                android:layout_below="@id/tv_overview"
-                android:layout_marginTop="25dp"
-                android:layout_marginBottom="25dp"
-                />
-            <!-- TODO Uncomment these for Stage 2 -->
-            <!--
-            <TextView
-                android:text="Trailers:"
-                android:id="@+id/trailers_text"
-                android:textSize="22sp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/divider1"/>
-
-            <ListView
-                android:id="@+id/lv_trailers"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/trailers_text"
-                android:layout_marginBottom="30dp"/>
-
-            -->
-        </RelativeLayout>
-
-    </ScrollView>
+        />
 
 
-</RelativeLayout>
+</FrameLayout>
