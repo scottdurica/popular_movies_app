@@ -6,10 +6,10 @@
 
     <dimen name="list_item_trailer_margin_left">25dp</dimen>
     <dimen name="list_item_trailer_image_width_height">48dp</dimen>
-    <dimen name="list_item_trailer_image_margin_top">15dp</dimen>
+    <dimen name="list_item_trailer_image_margin_top">12dp</dimen>
     <dimen name="list_item_trailer_image_margin_right">30dp</dimen>
-    <dimen name="list_item_trailer_tv_margin_top">15dp</dimen>
-    <dimen name="list_item_trailer_tv_text_size">20sp</dimen>
+    <dimen name="list_item_trailer_tv_margin_top_bottom">12dp</dimen>
+    <dimen name="list_item_trailer_tv_text_size">12sp</dimen>
     <dimen name="grid_item_width">210dp</dimen>
     <dimen name="grid_item_height">280dp</dimen>
     <dimen name="grid_view_col_width">150dp</dimen>
@@ -35,4 +35,8 @@
     <dimen name="detail_title_padding_bottom">40dp</dimen>
     <dimen name="list_padding_side">20dp</dimen>
     <dimen name="list_padding_top_bottom">10dp</dimen>
+    <dimen name="list_item_trailer_image_width">128dp</dimen>
+    <dimen name="list_item_trailer_image_height">72dp</dimen>
+    <dimen name="divider_margin_top_bottom">25dp</dimen>
+    <dimen name="icon_margin_right">10dp</dimen>
 </resources>

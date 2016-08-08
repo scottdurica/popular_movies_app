@@ -1,5 +1,6 @@
 package com.emrox_riprap.popularmovies.POJO;
 
+
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -31,7 +32,7 @@ public class Movie implements Parcelable{
         this.vote_average = voterAverage;
     }
 
-    //Getters and Setters
+
     public int getId() {
         return id;
     }

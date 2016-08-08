@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:id="@+id/tv_reviews_parent_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/ib_list_item_expand_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"
+
+            android:src="@drawable/ic_expand_less"
+            android:background="@android:color/transparent"/>
+
+
+
+
+</RelativeLayout>

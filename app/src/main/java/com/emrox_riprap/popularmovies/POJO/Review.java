@@ -1,19 +1,25 @@
 package com.emrox_riprap.popularmovies.POJO;
 
+import com.bignerdranch.expandablerecyclerview.Model.ParentObject;
+
+import java.util.List;
+
 /**
  * Created by scott on 7/23/2016.
  */
-public class Review extends ListItemObject{
+public class Review implements ParentObject{
 
     private String author;
-    private String url;
+    private String content;
+
+    private List<Object> mChildrenList;
 
     public Review() {
     }
 
-    public Review(String author, String url) {
+    public Review(String author, String reviewText) {
         this.author = author;
-        this.url = url;
+        this.content = reviewText;
     }
 
     public String getAuthor() {
@@ -24,11 +30,24 @@ public class Review extends ListItemObject{
         this.author = author;
     }
 
-    public String getUrl() {
-        return url;
+    public String getContent() {
+        return content;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setContent(String content) {
+        this.content = content;
     }
+
+    //implements ParentObject for expandablelistview stuff from bignerdranch.
+    @Override
+    public List<Object> getChildObjectList() {
+        return mChildrenList;
+    }
+
+    @Override
+    public void setChildObjectList(List<Object> list) {
+        mChildrenList = list;
+    }
+
+
 }

@@ -1,4 +1,6 @@
-package com.emrox_riprap.popularmovies.POJO;
+package com.emrox_riprap.popularmovies.api;
+
+import com.emrox_riprap.popularmovies.POJO.Movie;
 
 import java.util.ArrayList;
 

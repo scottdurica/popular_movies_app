@@ -7,10 +7,13 @@
     <color name="colorPrimary">#4CAF50</color>
     <color name="colorPrimaryDark">#388E3C</color>
     <color name="colorPrimaryLight">#C8E6C9</color>
-    <color name="colorAccent">#CDDC39</color>
+    <color name="colorAccent">#A239C1</color>
     <color name="colorPrimaryText">#212121</color>
     <color name="colorSecondaryText">#727272</color>
     <color name="colorIcons">#FFFFFF</color>
     <color name="colorDivider">#B6B6B6</color>
+    <color name="gray">#666</color>
+    <color name="light_gray">#999</color>
+    <color name="off_white">#eeeeee</color>
 
 </resources>

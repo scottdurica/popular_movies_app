@@ -13,11 +13,12 @@ public class MoviesDbHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "favorites.db";
 
     public static final int COL_INDEX_ID = 0;
-    public static final int COL_INDEX_TITLE = 1;
-    public static final int COL_INDEX_OVERVIEW = 2;
-    public static final int COL_INDEX_POSTER_PATH = 3;
-    public static final int COL_INDEX_RELEASE_DATE = 4;
-    public static final int COL_INDEX_VOTER_AVERAGE = 5;
+    public static final int COL_MOVIE_ID = 1;
+    public static final int COL_INDEX_TITLE = 2;
+    public static final int COL_INDEX_OVERVIEW = 3;
+    public static final int COL_INDEX_POSTER_PATH = 4;
+    public static final int COL_INDEX_RELEASE_DATE = 5;
+    public static final int COL_INDEX_VOTER_AVERAGE = 6;
 
     public MoviesDbHelper(Context context) {
         super(context, DATABASE_NAME,null, DATABASE_VERSION);
@@ -28,7 +29,8 @@ public class MoviesDbHelper extends SQLiteOpenHelper {
 
         final String SQL_CREATE_FAVORITES_TABLE = "CREATE TABLE " + MoviesContract.FavoritesEntry.TABLE_NAME +
                 " (" +
-                MoviesContract.FavoritesEntry._ID + " INTEGER PRIMARY KEY, " +
+                MoviesContract.FavoritesEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                MoviesContract.FavoritesEntry.COLUMN_MOVIE_ID + " INTEGER NOT NULL, " +
                 MoviesContract.FavoritesEntry.COLUMN_TITLE + " TEXT NOT NULL, " +
                 MoviesContract.FavoritesEntry.COLUMN_OVERVIEW + " TEXT NOT NULL, " +
                 MoviesContract.FavoritesEntry.COLUMN_POSTER_PATH + " TEXT NOT NULL, " +
